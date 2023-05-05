@@ -1,0 +1,125 @@
+/*cores*/
+.corpo{
+    background-color:rgb(39, 30, 30);
+}
+.corpo >p{
+    color:darkgreen;
+    font-size: 20px;
+    letter-spacing: normal;
+    text-align: center;
+    font-family:'Noto Sans JP', sans-serif; 
+    position:absolute;
+    top:100px;
+
+}
+.corpo>h1{
+    color:rgb(39, 77, 39);
+}
+.nav  a{
+    color:rgb(14, 14, 235);
+}
+/*comportamento do header e titulo*/
+h1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:110px;
+    text-transform: uppercase;
+}
+.nav a:hover{
+    transition: transform;
+    transform: scale(1.1);
+}
+/*cores do main e tamnho*/
+.detetive h2{
+    color:rgb(139, 22, 22);
+}
+.card-right img{
+    height: 200px;
+    width: 200px;
+}
+.detetive{
+    border:1px solid purple;
+    box-shadow: 25px 2px 11px 11px rgba(0,0,0,0.82);
+   -webkit-box-shadow: 25px 2px 11px 11px rgba(0,0,0,0.82);
+   -moz-box-shadow: 25px 2px 11px 11px rgba(0,0,0,0.82);
+   z-index:2;
+   width: 100%;
+
+   
+}
+.lista-detetive h3{
+    color:rgb(39, 77, 39);
+    text-transform: uppercase;
+    font-family:'Noto Sans JP', sans-serif; 
+}
+.lista-detetive p{
+    color:purple;
+    font-family:'Noto Sans JP', sans-serif;
+    font-size:20px;
+    letter-spacing: normal;
+}
+/*comportamentos*/  
+.detetive{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:200px;
+} 
+.hacker h2{
+    color:rgb(139, 22, 22);
+}
+.card-right img{
+    height: 200px;
+    width: 200px;
+}
+.hacker{
+    border:1px solid purple;
+    box-shadow: 25px 2px 11px 11px rgba(0,0,0,0.82);
+   -webkit-box-shadow: 25px 2px 11px 11px rgba(0,0,0,0.82);
+   -moz-box-shadow: 25px 2px 11px 11px rgba(0,0,0,0.82);
+   z-index:2;
+   width: 100%;
+   
+}
+.lista-hacker h3{
+    color:rgb(39, 77, 39);
+    text-transform: uppercase;
+    font-family:'Noto Sans JP', sans-serif; 
+}
+    
+.lista-hacker p{
+    color:purple;
+    font-family:'Noto Sans JP', sans-serif;
+    font-size:20px;
+    letter-spacing: normal;
+}
+.hacker{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:200px;
+} 
+.button{
+    background-color: black;
+    color:rgb(39, 77, 39);
+    width: 100px;
+    height: 30px;
+    margin-top:20px;
+    text-transform: uppercase;
+}
+.button:hover{
+    transition: background-color;
+    background-color: rgb(19, 189, 19);
+    transition: transform 1s;
+    transform: rotateZ(360deg);
+    
+}
